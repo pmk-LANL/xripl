@@ -20,14 +20,14 @@ from xripl.clean import cleanArtifacts, flatten
 from xripl.segmentation import detectShock
 # import xripl.pltDefaults
 
+from xripl.datasets import shot81431
+
+
 
 #%%
 # Plot
 
-xData = np.arange(10)
-yData = xData ** 2
-
-plt.plot(xData, yData)
-plt.xlabel('X')
-plt.ylabel('Y')
+foreground, background = shot81431()
+plt.imshow(foreground)
+plt.title('Marble VC shot 81431')
 plt.show()
