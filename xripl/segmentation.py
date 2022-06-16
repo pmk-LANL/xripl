@@ -120,7 +120,7 @@ def detectShock(image,
                 gradientDiskMarkers=10,
                 gradientThreshold=10,
                 gradientDiskWatershed=4,
-                morphDisk=10,
+                morphDisk=0,
                 compactness=0,
                 plots=True,
                 nSegs=3):
@@ -168,7 +168,7 @@ def detectShock(image,
     morphDisk: int
         Size of disk used in morphological closing of markers image. This
         cleans up the markers into more continuous regions. If zero, then
-        this step is skipped.
+        this step is skipped. Default is zero.
         
     compactness: float
         Compactness parameter for watershed. 

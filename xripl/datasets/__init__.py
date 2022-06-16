@@ -35,8 +35,8 @@ def _fetch(data_filename):
 
 def shot81431():
     r"""
-    Gets foreground and background raw image for Marble VC shot 81431 on
-    Omega-60.
+    Gets foreground and background raw image for XRFC5 on Marble VC shot 81431
+    on Omega-60. LA-UR-22-25426.
     
     Returns
     -------
@@ -58,7 +58,8 @@ def shot81431():
 
 def shot86456():
     r"""
-    Gets foreground and background raw image for COAX shot 86456 on Omega-60.
+    Gets foreground and background raw image for XRFC5 on COAX shot 86456 on
+    Omega-60. LA-UR-22-25426.
     
     Returns
     -------
